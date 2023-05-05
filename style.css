@@ -460,7 +460,9 @@ body.dark{
     text-align: center;
 }
 .box6 img{
-    height: 20rem;
+    margin-right: 10px;
+    height: 18rem;
+    border-radius: 15px;
 }
 .box6 .mini-box{
     display: flex;
@@ -477,6 +479,7 @@ body.dark{
 }
 .box6 .mini-box h2{
     color: var(--accent-color);
+    margin-right: 5px;
 }
 .box6 .mini-box a{
     margin-top: 10px;
