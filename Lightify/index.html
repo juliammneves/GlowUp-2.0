@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link para icones -->
+    <script src="https://kit.fontawesome.com/e1b9e82d8a.js" crossorigin="anonymous"></script>
+    <title>GlowUp</title>
+</head>
+<body>
+    <header id="nav">
+        <img class="bg-img" src="images/background.png" alt="">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><h1>GlowUp<span>.</span></h1></a>
+            </div>
+            <ul>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="">Projeto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="botoes">
+                <form action="" class="search" id="search-bar">
+                    <input type="search" placeholder="Digite aqui..." class="search_input">
+                    <div class="search_button" id="search-button">
+                       <i class="fa-solid fa-magnifying-glass searchBtn"></i> 
+                       <i class="fa-solid fa-xmark closeBtn"></i>
+                    </div>
+                </form>
+                <button class="button" id="form-open">Login</button>
+                <i class="fa-regular fa-lightbulb light"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pop up -->
+    <div class="container">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+            </form>
+            <form action="" class="sign-up-form">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Sign up" class="btn">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Já é membro?</h3>
+                    <p style="color: rgba(245, 245, 245, 0.743);">Faça login agora para ter acesso a todas as funcionalidades exclusivas da nossa plataforma e aproveite ao máximo a sua experiência conosco!</p>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="images/Computer login-amico.png" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Novo aqui?</h3>
+                    <p style="color: rgba(245, 245, 245, 0.743);">Junte-se a nós! Cadastre-se agora para ter acesso a conteúdos exclusivos e ficar por dentro das novidades. Não perca mais tempo, registre-se já!</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="images/Sign up-amico.png" alt="" class="image">
+            </div>
+        </div>
+    </div>
+
+    <section class="section1">
+        <div class="box1">
+            <h1><span>GlowUp,</span><br>transformando sua cidade com eficiência energética e sustentabilidade.</h1>
+            <button onclick="location.href='#inicio'" type="button">Saiba mais <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="section2 sec" id="inicio">
+        <div class="box2">
+            <div class="text1">
+                <h1>O que é iluminação inteligente pública?</h1>
+                <p>Iluminação inteligente pública é um sistema de iluminação de ruas e espaços públicos controlado por tecnologia de automação, que usa sensores, dispositivos de rede sem fio e algoritmos para ajustar o brilho, a cor e o padrão da iluminação de maneira automatizada e programável, permitindo ajustar a iluminação com base na hora do dia, condições climáticas, movimento de pessoas e outros fatores para melhorar a eficiência energética e a segurança pública.</p>
+            </div>
+            <img src="images/Questions-amico.png" alt="">
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="box3">
+            <h3>Estudos de Caso</h3>
+            <h1>Por que deveriamos adotar esse sistema?</h1>
+            <div class="col-3">
+                <div class="cases">
+                    <i class="fa-solid fa-power-off"></i>
+                    <h2>Economia de energia</h2>
+                    <p>A adoção de sistemas de iluminação inteligente pode reduzir drasticamente o consumo de energia e, por consequência, reduzir os custos. De acordo com um estudo da Smart Cities Council, a adoção de sistemas de iluminação inteligente pode resultar em economias de energia de até 50%</span>. Em um exemplo prático, a cidade de Los Angeles economizou US$ 8 milhões em energia e manutenção após a adoção de um sistema de iluminação inteligente.</p>
+                </div>
+                <div class="cases">
+                    <i class="fa-regular fa-lightbulb p2"></i>
+                    <h2>Redução da poluição luminosa</h2>
+                    <p>A poluição luminosa é um problema crescente em áreas urbanas que afeta a fauna, a flora e a saúde humana. A iluminação inteligente pode ajudar a reduzir esse impacto, direcionando a luz apenas onde ela é necessária e ajustando a intensidade da luz de acordo com a necessidade. Um exemplo disso é o sistema de iluminação inteligente implantado em Tucson, Arizona, que reduziu a poluição luminosa em 63%.</p>
+                </div>
+                <div class="cases">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Melhoria da segurança pública</h2>
+                    <p>A iluminação pública é um elemento importante na promoção da segurança pública em áreas urbanas. Com sistemas de iluminação inteligente, é possível melhorar a iluminação em áreas específicas, detectar atividades suspeitas por meio de sensores e alertar as autoridades competentes. Em Barcelona, por exemplo, um sistema de iluminação inteligente reduziu a criminalidade em uma área específica em 50%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="box4">
+            <img src="images/Good team-amico.png" alt="">
+            <div class="text">
+               <h3>Sobre nós</h3> 
+               <p>Queremos tornar a iluminação pública inteligente uma realidade para o Brasil. Somos uma equipe apaixonada e dedicada em fornecer soluções de iluminação pública eficientes e sustentáveis que possam contribuir para um país mais moderno, seguro e sustentável. Acreditamos que nossa tecnologia de ponta pode oferecer uma solução mais econômica e eficiente para a iluminação pública, e estamos comprometidos em tornar isso possível para todas as cidades brasileiras.</p>
+               <a href="sobre.html"><button><i class="fa-solid fa-arrow-right"></i></button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5 sec">
+        <div class="box5">
+            <h3>Recursos</h3>
+            <h1>Nossos principais recursos</h1>
+            <input type="checkbox" id="view">
+            <div class="mini-box">
+                <div class="recursos">
+                    <label for="view" id="l1">
+                        <i class="fa-solid fa-paperclip"></i>
+                        <h2>Sensores</h2>
+                    </label>
+                    <div class="text">
+                        <p>Sensores podem ser usados para detectar a presença de pedestres ou veículos e ajustar a iluminação de acordo com a necessidade. Por exemplo, as luzes podem ser aumentadas em áreas com mais movimento e diminuídas em áreas com menos movimento. Sensores também podem ser usados para detectar condições climáticas, como chuva ou neve, e ajustar a iluminação de acordo com as condições.</p>
+                    </div>
+                </div>
+                <div class="recursos">
+                    <label for="view">
+                        <i class="fa-solid fa-paperclip"></i>
+                        <h2 id="l2">Tecnologia LED</h2>
+                    </label>
+                    <div class="text">
+                        <p>A tecnologia LED é uma das principais características dos sistemas de iluminação inteligente público, pois as lâmpadas LED são mais eficientes em termos de energia, têm uma vida útil mais longa e permitem um controle mais preciso da iluminação.</p>
+                    </div>
+                </div>
+                <div class="recursos">
+                    
+                    <label for="view">
+                        <i class="fa-solid fa-paperclip"></i>
+                        <h2>Gestão de energia</h2>
+                    </label>
+                    <div class="text">
+                        <p>O sistema de gerenciamento de energia pode ser usado para monitorar e gerenciar o consumo de energia em todo o sistema de iluminação. Isso pode ajudar a identificar áreas onde a energia está sendo desperdiçada e ajustar a iluminação para economizar energia.</p>
+                    </div>
+                </div>
+                <div class="recursos">
+                    
+                    <label for="view">
+                        <i class="fa-solid fa-paperclip"></i>
+                        <h2 id="l2">Análise de dados</h2>
+                    </label>
+                    <div class="text">
+                        <p>A análise de dados pode ser usada para identificar padrões de uso da iluminação pública e ajudar a ajustar o sistema de iluminação para atender melhor às necessidades dos usuários. Por exemplo, os dados podem ser usados para ajustar os níveis de luz em diferentes áreas ou horários do dia para otimizar a eficiência energética e reduzir os custos de operação.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section6 sec">
+        <div class="box6">
+            <h3>Blog</h3>
+            <h1>Notícias</h1>
+            <div class="mini-box">
+                <div class="col-3">
+                    <img src="images/blog1.png" alt="">
+                    <p>22 abril 2023</p>
+                    <h2>Tartarugas se confundem com a iluminação das praias</h2>
+                    <a href="blog.html#blog1">Saiba mais<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col-3">
+                    <img src="images/blog2.png" alt="">
+                    <p>23 abril 2023</p>
+                    <h2>A exposição à luz artificial durante a noite pode afetar o ciclo de sono</h2>
+                    <a href="blog.html#blog2">Saiba mais<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col-3">
+                    <img src="images/blog3.png" alt="">
+                    <p>27 abril 2023</p>
+                    <h2>Sistemas de luz convencionais podem consumir mais energia do que o necessário</h2>
+                    <a href="blog.html#blog3">Saiba mais<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section7" id="contato">
+        <div class="box7">
+            <div class="box_contato">
+                <div class="title1">
+                    <h1>Contate-nos<span>.</span></h1>
+                    <h2>Informações de contato</h2>
+                </div>
+                <form action="contato.html" method="post" class="contact-form">
+                    <div class="input-wrap">
+                        <input class="contact-input" autocomplete="off" name="First Name" type="text" required>
+                        <label for="">Nome</label>
+                        <i class="icon fa-solid fa-address-card"></i>
+                    </div>
+                    <div class="input-wrap">
+                        <input class="contact-input" autocomplete="off" name="Last Name" type="text" required>
+                        <label for="">Sobrenome</label>
+                        <i class="icon fa-solid fa-address-card"></i>
+                    </div>
+                    <div class="input-wrap w-100">
+                        <input class="contact-input" autocomplete="off" name="Email" type="email" required>
+                        <label for="">Email</label>
+                        <i class="icon fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input-wrap w-100">
+                        <input class="contact-input" pattern="[0-9]{10,11}" maxlength="11" autocomplete="off" name="Number" type="tel" required>
+                        <label for="">Telefone</label>
+                        <i class="icon fa-solid fa-phone"></i>
+                    </div>
+                    <div class="input-wrap w-100">
+                        <textarea name="Message" autocomplete="off" class="contact-input"></textarea>
+                        <label for="">Message</label>
+                        <i class="icon fa-solid fa-inbox"></i>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn1 w-100">
+                </form>
+            </div>
+            <hr>
+            <div class="text">
+                <h1>Trabalhe conosco!</h1>
+                <h4>envie um e-mail: <a href="">contato@glowup.com</a></h4>
+            </div>
+        </div>
+        <div class="linha"><hr></div>
+    </section>
+    
+
+    <footer>
+        <div class="col-4">
+            <div class="logo">
+                <a href="index.html"><h1>GlowUp<span>.</span></h1></a>
+            </div>
+            <p>© 2023 GlowUp. <br>Todos os direitos reservados. </p>
+            <div class="icons">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="col-4">
+            <h2>Entre em contato</h2>
+            <p>Rua das Flores, 123<br> - Bairro Novo Horizonte<br>
+                Cidade, Santa Maria, São Paulo<br><br>
+                contato@glowup.com<br><br>
+                +55 (11) 98765-4321
+                </p>
+        </div>
+        <div class="col-4">
+            <h2>Saiba mais</h2>
+            <li><a href="#nav">Início</a></li>
+            <li><a href="sobre.html#nav">Sobre nós</a></li>
+            <li><a href="">Projeto</a></li>
+            <li><a href="blog.html#nav">Blog</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </div>
+        <div class="col-4">
+            <h2>Nosso Newsletter</h2>
+            <p>Se increva em nosso newsletter<br> para receber noticias e mais informações<br> sobre nós em seu e-mail.</p>
+            <div class="subscribe-form">
+                <form>
+                  <div class="subscribeBox">
+                      <i class="fa-regular fa-envelope"></i>
+                      <input type="email" placeholder="Digite seu e-mail">
+                  </div>
+                  <button type="submit">Increva-se</button>
+                </form>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <a href="https://storyset.com/people">People illustrations by Storyset</a> -->
+</body>
+</html>
