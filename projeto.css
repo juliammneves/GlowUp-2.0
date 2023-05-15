@@ -630,3 +630,16 @@ a {
         font-size: 14px;
     }
         /* Fim - footer */
+
+@media screen and (max-width: 1366px) and (max-height: 768px){
+    .section3 .casos{
+        width: 20rem;
+    }
+    .section3 img{
+        height: 12rem;
+        width: 16.5rem;
+    }
+    .section3 h2{
+        font-size: 21.5px;
+    }
+}
