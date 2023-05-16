@@ -935,7 +935,7 @@ footer form button{
     /* Fim - pop up form */
 
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 1024px) and (max-height: 1280px) {
+@media screen and (max-width: 1280px) and (max-height: 1024px){
     .bg-img{
         width: 100%;
         object-fit: cover;
@@ -945,11 +945,15 @@ footer form button{
         left: 0;
         z-index: -1;
     }
+    .box1{
+        margin: 18% 10% 20%;
+        text-align: center;
+    } 
     .box2 img{
         height: 25rem;
     }
     p{
-        font-size: 14.5px
+        font-size: 18px
     }
     .box3 .cases{
         width: 20rem;
